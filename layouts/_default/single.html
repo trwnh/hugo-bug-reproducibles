@@ -1,0 +1,10 @@
+{{ define "head" }}
+	{{ with .Resources.GetMatch "style.scss" }}
+	{{ $style := . | toCSS | minify | fingerprint }} {{/* this line doesn't get rerun */}}
+	<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}" />
+	{{ end }}
+{{ end }}
+
+{{ define "body" }}
+{{ .Content }}
+{{ end }}
