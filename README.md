@@ -1,6 +1,7 @@
 # page-resources-pipes-scss
 
-hugo v0.112.3+extended linux/amd64 BuildDate=unknown
+- hugo v0.112.3+extended linux/amd64 BuildDate=unknown
+- https://github.com/gohugoio/hugo/issues/11070
 
 `layouts/_default/single.html`:
 ```
