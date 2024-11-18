@@ -1,10 +1,10 @@
 {{ define "body" }}
 {{/*  this fails with "error calling Data: term is empty"  */}}
 <dl>
-{{/*  {{ range .Data.Terms.ByCount }}
+{{ range .Data.Terms.ByCount }}
 	<dt>{{.Name}} -- <a href="{{.Permalink}}">{{.Permalink}}</a></dt>
 	<dd>used {{.Count}} time(s)</dd>
-{{ end }}  */}}
+{{ end }}
 </dl>
 {{ range .Pages }}
 <li><a href="{{.Permalink}}">{{.Permalink}}</a></li>
