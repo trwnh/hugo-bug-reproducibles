@@ -1,5 +1,8 @@
 # term-is-empty
 
+hugo v0.138.0+extended linux/amd64 BuildDate=unknown
+https://discourse.gohugo.io/t/error-calling-data-term-is-empty-when-using-content-adapter-to-populate-tags/52457
+
 data/tags/yugioh.json
 
 ```json
