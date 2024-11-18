@@ -1,0 +1,12 @@
+{
+	"@context": [
+		"https://www.w3.org/ns/activitystreams",
+		{
+			"@base": "https://trwnh.com/tags/"
+		}
+	],
+	"id": "yu-gi-oh!",
+	"name": "Yu-Gi-Oh!",
+	"summary": "A media franchise including several series mostly revolving around the fictional card game of Duel Monsters.",
+	"alsoKnownAs": ["yu-gi-oh", "ygo", "yugioh"]
+}
